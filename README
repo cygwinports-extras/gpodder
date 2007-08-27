@@ -1,0 +1,141 @@
+gpodder
+------------------------------------------
+gPodder is a podcast receiver/catcher written in Python utilizing PyGTK 
+for its graphical interface.
+
+Runtime requirements:
+  python-2.5.1-3
+  python-eyed3-0.6.14-1
+  python-gobject2-2.12.3-2
+  python-gpod-0.5.2-1
+  python-gtk2-2.10.6-1
+  python-mad-0.6-1
+  python-xml-0.8.4-2
+  lame
+  vorbis-tools
+  wget
+
+Build requirements:
+  cygwin-1.5.24-2
+  binutils-20060817-1
+  cygport-0.3.5-1
+  gettext-devel-0.15-1
+  make-3.81-1
+  python-2.5.1-3
+
+Canonical website:
+  http://gpodder.berlios.de/
+
+Canonical download:
+  http://prdownload.berlios.de/gpodder/
+
+-------------------------------------------
+
+Build instructions:
+  unpack gpodder-0.9.5-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./gpodder-0.9.5-X.cygport all
+
+This will create:
+  /usr/src/gpodder-0.9.5-X-src.tar.bz2
+  /usr/src/gpodder-0.9.5-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /etc/postinstall/gpodder.sh
+  /usr/bin/gpodder
+  /usr/lib/python2.5/site-packages/gpodder-0.9.5-py2.5.egg-info
+  /usr/lib/python2.5/site-packages/gpodder/SimpleGladeApp.py
+  /usr/lib/python2.5/site-packages/gpodder/SimpleGladeApp.pyc
+  /usr/lib/python2.5/site-packages/gpodder/SimpleGladeApp.pyo
+  /usr/lib/python2.5/site-packages/gpodder/__init__.py
+  /usr/lib/python2.5/site-packages/gpodder/__init__.pyc
+  /usr/lib/python2.5/site-packages/gpodder/__init__.pyo
+  /usr/lib/python2.5/site-packages/gpodder/console.py
+  /usr/lib/python2.5/site-packages/gpodder/console.pyc
+  /usr/lib/python2.5/site-packages/gpodder/console.pyo
+  /usr/lib/python2.5/site-packages/gpodder/gui.py
+  /usr/lib/python2.5/site-packages/gpodder/gui.pyc
+  /usr/lib/python2.5/site-packages/gpodder/gui.pyo
+  /usr/lib/python2.5/site-packages/gpodder/libconverter.py
+  /usr/lib/python2.5/site-packages/gpodder/libconverter.pyc
+  /usr/lib/python2.5/site-packages/gpodder/libconverter.pyo
+  /usr/lib/python2.5/site-packages/gpodder/libgpodder.py
+  /usr/lib/python2.5/site-packages/gpodder/libgpodder.pyc
+  /usr/lib/python2.5/site-packages/gpodder/libgpodder.pyo
+  /usr/lib/python2.5/site-packages/gpodder/libipodsync.py
+  /usr/lib/python2.5/site-packages/gpodder/libipodsync.pyc
+  /usr/lib/python2.5/site-packages/gpodder/libipodsync.pyo
+  /usr/lib/python2.5/site-packages/gpodder/liblocaldb.py
+  /usr/lib/python2.5/site-packages/gpodder/liblocaldb.pyc
+  /usr/lib/python2.5/site-packages/gpodder/liblocaldb.pyo
+  /usr/lib/python2.5/site-packages/gpodder/liblocdbreader.py
+  /usr/lib/python2.5/site-packages/gpodder/liblocdbreader.pyc
+  /usr/lib/python2.5/site-packages/gpodder/liblocdbreader.pyo
+  /usr/lib/python2.5/site-packages/gpodder/liblocdbwriter.py
+  /usr/lib/python2.5/site-packages/gpodder/liblocdbwriter.pyc
+  /usr/lib/python2.5/site-packages/gpodder/liblocdbwriter.pyo
+  /usr/lib/python2.5/site-packages/gpodder/liblogger.py
+  /usr/lib/python2.5/site-packages/gpodder/liblogger.pyc
+  /usr/lib/python2.5/site-packages/gpodder/liblogger.pyo
+  /usr/lib/python2.5/site-packages/gpodder/libplayers.py
+  /usr/lib/python2.5/site-packages/gpodder/libplayers.pyc
+  /usr/lib/python2.5/site-packages/gpodder/libplayers.pyo
+  /usr/lib/python2.5/site-packages/gpodder/libpodcasts.py
+  /usr/lib/python2.5/site-packages/gpodder/libpodcasts.pyc
+  /usr/lib/python2.5/site-packages/gpodder/libpodcasts.pyo
+  /usr/lib/python2.5/site-packages/gpodder/librssreader.py
+  /usr/lib/python2.5/site-packages/gpodder/librssreader.pyc
+  /usr/lib/python2.5/site-packages/gpodder/librssreader.pyo
+  /usr/lib/python2.5/site-packages/gpodder/libtagupdate.py
+  /usr/lib/python2.5/site-packages/gpodder/libtagupdate.pyc
+  /usr/lib/python2.5/site-packages/gpodder/libtagupdate.pyo
+  /usr/lib/python2.5/site-packages/gpodder/libwget.py
+  /usr/lib/python2.5/site-packages/gpodder/libwget.pyc
+  /usr/lib/python2.5/site-packages/gpodder/libwget.pyo
+  /usr/lib/python2.5/site-packages/gpodder/opml.py
+  /usr/lib/python2.5/site-packages/gpodder/opml.pyc
+  /usr/lib/python2.5/site-packages/gpodder/opml.pyo
+  /usr/lib/python2.5/site-packages/gpodder/util.py
+  /usr/lib/python2.5/site-packages/gpodder/util.pyc
+  /usr/lib/python2.5/site-packages/gpodder/util.pyo
+  /usr/share/applications/gpodder.desktop
+  /usr/share/doc/Cygwin/gpodder-0.9.5.README
+  /usr/share/doc/gpodder-0.9.5/AUTHORS
+  /usr/share/doc/gpodder-0.9.5/COPYING
+  /usr/share/doc/gpodder-0.9.5/ChangeLog
+  /usr/share/doc/gpodder-0.9.5/INSTALL
+  /usr/share/doc/gpodder-0.9.5/README
+  /usr/share/doc/gpodder-0.9.5/TODO
+  /usr/share/gpodder/gpodder.glade
+  /usr/share/icons/hicolor/16x16/apps/gpodder.png
+  /usr/share/icons/hicolor/22x22/apps/gpodder.png
+  /usr/share/icons/hicolor/24x24/apps/gpodder.png
+  /usr/share/icons/hicolor/48x48/apps/gpodder.png
+  /usr/share/icons/hicolor/scalable/apps/gpodder.svg
+  /usr/share/locale/de/LC_MESSAGES/gpodder.mo
+  /usr/share/locale/es/LC_MESSAGES/gpodder.mo
+  /usr/share/locale/fr/LC_MESSAGES/gpodder.mo
+  /usr/share/locale/it/LC_MESSAGES/gpodder.mo
+  /usr/share/locale/nl/LC_MESSAGES/gpodder.mo
+  /usr/share/locale/pt/LC_MESSAGES/gpodder.mo
+  /usr/share/locale/ru/LC_MESSAGES/gpodder.mo
+  /usr/share/locale/sv/LC_MESSAGES/gpodder.mo
+  /usr/share/locale/uk/LC_MESSAGES/gpodder.mo
+  /usr/share/man/man1/gpodder.1.gz
+  /usr/share/pixmaps/gpodder.png
+
+------------------
+
+Port Notes:
+
+----- version 0.9.5-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/

@@ -1,0 +1,5 @@
+category: Gnome Web
+requires: python python-eyed3 python-gobject2 python-gpod python-gtk2 python-mad python-xml lame vorbis-tools wget
+sdesc: "GNOME podcast manager"
+ldesc: "gPodder is a podcast receiver/catcher written in Python 
+utilizing PyGTK for its graphical interface."
