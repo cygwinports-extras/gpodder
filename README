@@ -7,9 +7,9 @@ Runtime requirements:
   python-2.5.1-3
   python-eyed3-0.6.14-1
   python-feedparser-4.1-1
-  python-gobject2-2.12.3-2
-  python-gpod-0.5.2-1
-  python-gtk2-2.10.6-1
+  python-gobject2-2.14.0-1
+  python-gpod-0.6.0-1
+  python-gtk2-2.12.0-1
   python-mad-0.6-1
   lame
   vorbis-tools
@@ -18,7 +18,7 @@ Runtime requirements:
 Build requirements:
   cygwin-1.5.24-2
   binutils-20060817-1
-  cygport-0.3.5-1
+  cygport-0.3.7-1
   gettext-devel-0.15-1
   help2man-1.36.4-1
   make-3.81-1
@@ -33,15 +33,15 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack gpodder-0.10.0-X-src.tar.bz2
+  unpack gpodder-0.10.3-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./gpodder-0.10.0-X.cygport all
+  cygport ./gpodder-0.10.3-X.cygport all
 
 This will create:
-  /usr/src/gpodder-0.10.0-X-src.tar.bz2
-  /usr/src/gpodder-0.10.0-X.tar.bz2
+  /usr/src/gpodder-0.10.3-X-src.tar.bz2
+  /usr/src/gpodder-0.10.3-X.tar.bz2
 
 -------------------------------------------
 
@@ -49,7 +49,7 @@ Files included in the binary package:
 
   /etc/postinstall/gpodder.sh
   /usr/bin/gpodder
-  /usr/lib/python2.5/site-packages/gpodder-0.10.0-py2.5.egg-info
+  /usr/lib/python2.5/site-packages/gpodder-0.10.3-py2.5.egg-info
   /usr/lib/python2.5/site-packages/gpodder/SimpleGladeApp.py
   /usr/lib/python2.5/site-packages/gpodder/SimpleGladeApp.pyc
   /usr/lib/python2.5/site-packages/gpodder/SimpleGladeApp.pyo
@@ -99,13 +99,13 @@ Files included in the binary package:
   /usr/lib/python2.5/site-packages/gpodder/util.pyc
   /usr/lib/python2.5/site-packages/gpodder/util.pyo
   /usr/share/applications/gpodder.desktop
-  /usr/share/doc/Cygwin/gpodder-0.10.0.README
-  /usr/share/doc/gpodder-0.10.0/AUTHORS
-  /usr/share/doc/gpodder-0.10.0/COPYING
-  /usr/share/doc/gpodder-0.10.0/ChangeLog
-  /usr/share/doc/gpodder-0.10.0/INSTALL
-  /usr/share/doc/gpodder-0.10.0/README
-  /usr/share/doc/gpodder-0.10.0/TODO
+  /usr/share/doc/Cygwin/gpodder-0.10.3.README
+  /usr/share/doc/gpodder-0.10.3/AUTHORS
+  /usr/share/doc/gpodder-0.10.3/COPYING
+  /usr/share/doc/gpodder-0.10.3/ChangeLog
+  /usr/share/doc/gpodder-0.10.3/INSTALL
+  /usr/share/doc/gpodder-0.10.3/README
+  /usr/share/doc/gpodder-0.10.3/TODO
   /usr/share/gpodder/gpodder.glade
   /usr/share/icons/hicolor/16x16/apps/gpodder.png
   /usr/share/icons/hicolor/22x22/apps/gpodder.png
@@ -127,6 +127,9 @@ Files included in the binary package:
 ------------------
 
 Port Notes:
+
+----- version 0.10.3-1 -----
+Version bump.
 
 ----- version 0.10.0-1 -----
 Version bump.
