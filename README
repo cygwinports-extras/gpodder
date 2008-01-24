@@ -7,16 +7,16 @@ Runtime requirements:
   python-2.5.1-3
   python-eyed3-0.6.14-1
   python-feedparser-4.1-1
-  python-gobject2-2.14.0-1
+  python-gobject2-2.14.1-1
   python-gpod-0.6.0-1
-  python-gtk2-2.12.0-1
+  python-gtk2-2.12.1-1
   python-mad-0.6-1
   lame
   vorbis-tools
   wget
 
 Build requirements:
-  cygwin-1.5.24-2
+  cygwin-1.5.25-7
   binutils-20060817-1
   cygport-0.3.7-1
   gettext-devel-0.15-1
@@ -33,15 +33,15 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack gpodder-0.10.3-X-src.tar.bz2
+  unpack gpodder-0.10.4-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./gpodder-0.10.3-X.cygport all
+  cygport ./gpodder-0.10.4-X.cygport all
 
 This will create:
-  /usr/src/gpodder-0.10.3-X-src.tar.bz2
-  /usr/src/gpodder-0.10.3-X.tar.bz2
+  /usr/src/gpodder-0.10.4-X-src.tar.bz2
+  /usr/src/gpodder-0.10.4-X.tar.bz2
 
 -------------------------------------------
 
@@ -49,7 +49,7 @@ Files included in the binary package:
 
   /etc/postinstall/gpodder.sh
   /usr/bin/gpodder
-  /usr/lib/python2.5/site-packages/gpodder-0.10.3-py2.5.egg-info
+  /usr/lib/python2.5/site-packages/gpodder-0.10.4-py2.5.egg-info
   /usr/lib/python2.5/site-packages/gpodder/SimpleGladeApp.py
   /usr/lib/python2.5/site-packages/gpodder/SimpleGladeApp.pyc
   /usr/lib/python2.5/site-packages/gpodder/SimpleGladeApp.pyo
@@ -59,12 +59,18 @@ Files included in the binary package:
   /usr/lib/python2.5/site-packages/gpodder/cache.py
   /usr/lib/python2.5/site-packages/gpodder/cache.pyc
   /usr/lib/python2.5/site-packages/gpodder/cache.pyo
+  /usr/lib/python2.5/site-packages/gpodder/config.py
+  /usr/lib/python2.5/site-packages/gpodder/config.pyc
+  /usr/lib/python2.5/site-packages/gpodder/config.pyo
   /usr/lib/python2.5/site-packages/gpodder/console.py
   /usr/lib/python2.5/site-packages/gpodder/console.pyc
   /usr/lib/python2.5/site-packages/gpodder/console.pyo
   /usr/lib/python2.5/site-packages/gpodder/download.py
   /usr/lib/python2.5/site-packages/gpodder/download.pyc
   /usr/lib/python2.5/site-packages/gpodder/download.pyo
+  /usr/lib/python2.5/site-packages/gpodder/draw.py
+  /usr/lib/python2.5/site-packages/gpodder/draw.pyc
+  /usr/lib/python2.5/site-packages/gpodder/draw.pyo
   /usr/lib/python2.5/site-packages/gpodder/gui.py
   /usr/lib/python2.5/site-packages/gpodder/gui.pyc
   /usr/lib/python2.5/site-packages/gpodder/gui.pyo
@@ -99,22 +105,22 @@ Files included in the binary package:
   /usr/lib/python2.5/site-packages/gpodder/util.pyc
   /usr/lib/python2.5/site-packages/gpodder/util.pyo
   /usr/share/applications/gpodder.desktop
-  /usr/share/doc/Cygwin/gpodder-0.10.3.README
-  /usr/share/doc/gpodder-0.10.3/AUTHORS
-  /usr/share/doc/gpodder-0.10.3/COPYING
-  /usr/share/doc/gpodder-0.10.3/ChangeLog
-  /usr/share/doc/gpodder-0.10.3/INSTALL
-  /usr/share/doc/gpodder-0.10.3/README
-  /usr/share/doc/gpodder-0.10.3/TODO
+  /usr/share/doc/gpodder-0.10.4/AUTHORS
+  /usr/share/doc/gpodder-0.10.4/COPYING
+  /usr/share/doc/gpodder-0.10.4/ChangeLog
+  /usr/share/doc/gpodder-0.10.4/INSTALL
+  /usr/share/doc/gpodder-0.10.4/README
   /usr/share/gpodder/gpodder.glade
   /usr/share/icons/hicolor/16x16/apps/gpodder.png
   /usr/share/icons/hicolor/22x22/apps/gpodder.png
   /usr/share/icons/hicolor/24x24/apps/gpodder.png
   /usr/share/icons/hicolor/48x48/apps/gpodder.png
   /usr/share/icons/hicolor/scalable/apps/gpodder.svg
+  /usr/share/locale/cs/LC_MESSAGES/gpodder.mo
   /usr/share/locale/de/LC_MESSAGES/gpodder.mo
   /usr/share/locale/es/LC_MESSAGES/gpodder.mo
   /usr/share/locale/fr/LC_MESSAGES/gpodder.mo
+  /usr/share/locale/gl/LC_MESSAGES/gpodder.mo
   /usr/share/locale/it/LC_MESSAGES/gpodder.mo
   /usr/share/locale/nl/LC_MESSAGES/gpodder.mo
   /usr/share/locale/pt/LC_MESSAGES/gpodder.mo
@@ -127,6 +133,9 @@ Files included in the binary package:
 ------------------
 
 Port Notes:
+
+----- version 0.10.4-1 -----
+Version bump.
 
 ----- version 0.10.3-1 -----
 Version bump.
