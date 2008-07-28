@@ -1,0 +1,18 @@
+inherit python
+
+DESCRIPTION="GNOME podcast manager"
+HOMEPAGE="http://gpodder.berlios.de/"
+SRC_URI="mirror://berlios/${PN}/${P}.tar.gz"
+
+DIFF_EXCLUDES="gpodder.1 gui.py"
+
+src_compile() {
+	lndirs
+}
+
+src_install() {
+	cd ${B}
+	cyginstall -j1
+
+	python_optimize
+}
