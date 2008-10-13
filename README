@@ -11,14 +11,15 @@ Runtime requirements:
   python-gpod-0.6.0-1
   python-gtk2-2.12.1-1
   python-mad-0.6-1
+  python-pymtp-0.0.4-1
   python-sqlite3-2.5.2-3
   lame
   vorbis-tools
   wget
 
 Build requirements:
-  cygport-0.4.0-1
-  gettext-devel-0.15-1
+  cygport-0.4.1-1
+  gettext-devel-0.17-1
   help2man-1.36.4-2
   make-3.81-1
   python-2.5.2-3
@@ -32,15 +33,15 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack gpodder-0.12.3-X-src.tar.bz2
+  unpack gpodder-0.13.0-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./gpodder-0.12.3-X.cygport all
+  cygport ./gpodder-0.13.0-X.cygport all
 
 This will create:
-  /usr/src/gpodder-0.12.3-X-src.tar.bz2
-  /usr/src/gpodder-0.12.3-X.tar.bz2
+  /usr/src/gpodder-0.13.0-X-src.tar.bz2
+  /usr/src/gpodder-0.13.0-X.tar.bz2
 
 -------------------------------------------
 
@@ -48,7 +49,7 @@ Files included in the binary package:
 
   /etc/postinstall/gpodder.sh
   /usr/bin/gpodder
-  /usr/lib/python2.5/site-packages/gpodder-0.12.3-py2.5.egg-info
+  /usr/lib/python2.5/site-packages/gpodder-0.13.0-py2.5.egg-info
   /usr/lib/python2.5/site-packages/gpodder/SimpleGladeApp.py
   /usr/lib/python2.5/site-packages/gpodder/SimpleGladeApp.pyc
   /usr/lib/python2.5/site-packages/gpodder/SimpleGladeApp.pyo
@@ -113,10 +114,10 @@ Files included in the binary package:
   /usr/lib/python2.5/site-packages/gpodder/util.pyc
   /usr/lib/python2.5/site-packages/gpodder/util.pyo
   /usr/share/applications/gpodder.desktop
-  /usr/share/doc/gpodder-0.12.3/COPYING
-  /usr/share/doc/gpodder-0.12.3/ChangeLog
-  /usr/share/doc/gpodder-0.12.3/INSTALL
-  /usr/share/doc/gpodder-0.12.3/README
+  /usr/share/doc/gpodder-0.13.0/COPYING
+  /usr/share/doc/gpodder-0.13.0/ChangeLog
+  /usr/share/doc/gpodder-0.13.0/INSTALL
+  /usr/share/doc/gpodder-0.13.0/README
   /usr/share/gpodder/gpodder.glade
   /usr/share/icons/hicolor/16x16/apps/gpodder.png
   /usr/share/icons/hicolor/22x22/apps/gpodder.png
@@ -140,6 +141,9 @@ Files included in the binary package:
 ------------------
 
 Port Notes:
+
+----- version 0.13.0-1 -----
+Version bump.
 
 ----- version 0.12.3-1 -----
 Version bump.
