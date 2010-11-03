@@ -4,7 +4,7 @@ DESCRIPTION="GNOME podcast manager"
 HOMEPAGE="http://gpodder.berlios.de/"
 SRC_URI="mirror://berlios/${PN}/${P}.tar.gz"
 
-DIFF_EXCLUDES="gpodder.1 gui.py"
+DIFF_EXCLUDES="*.po *.pot"
 
 src_compile() {
 	lndirs
