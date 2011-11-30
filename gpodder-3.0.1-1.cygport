@@ -1,8 +1,8 @@
 inherit python
 
 DESCRIPTION="GNOME podcast manager"
-HOMEPAGE="http://gpodder.berlios.de/"
-SRC_URI="mirror://berlios/${PN}/${P}.tar.gz"
+HOMEPAGE="http://gpodder.org/"
+SRC_URI="http://gpodder.org/src/${P}.tar.gz"
 
 DIFF_EXCLUDES="*.po *.pot"
 
