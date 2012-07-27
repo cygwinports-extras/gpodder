@@ -1,6 +1,9 @@
 inherit python
 
-DESCRIPTION="GNOME podcast manager"
+CATEGORY="Web"
+SUMMARY="GNOME podcast manager"
+DESCRIPTION="gPodder is a podcast receiver/catcher written in Python
+utilizing PyGTK for its graphical interface."
 HOMEPAGE="http://gpodder.org/"
 SRC_URI="http://gpodder.org/src/${P}.tar.gz"
 
