@@ -1,6 +1,6 @@
 NAME="gpodder"
 VERSION=3.4.0
-RELEASE=1
+RELEASE=2
 CATEGORY="Web"
 SUMMARY="GNOME podcast manager"
 DESCRIPTION="gPodder is a podcast receiver/catcher written in Python
